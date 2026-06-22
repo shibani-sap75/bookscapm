@@ -8,3 +8,8 @@ entity Books {
         publicationDate : Date;
         digitalCopy     : Boolean
 }
+
+entity Libarary  {
+    key ID              : UUID;
+        title           : String(100);
+}
