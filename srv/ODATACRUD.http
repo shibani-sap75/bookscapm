@@ -1,0 +1,26 @@
+GET http://localhost:4004/odata/v4/books-srv
+
+###
+GET http://localhost:4004/odata/v4/books-srv/Bookset(550e8400-e29b-41d4-a716-446655440001) 
+
+###
+POST http://localhost:4004/odata/v4/books-srv/Bookset 
+Content-Type: application/json
+
+{
+    "title": "SAP LABS",
+    "author": "F. Scott Fitzgerald",
+    "price": 10.99,
+    "digitalCopy": true
+}
+
+###
+PUT http://localhost:4004/odata/v4/books-srv/Bookset(0cbb8b98-032e-4380-bf90-314d5e0084d2)
+Content-Type: application/json
+
+{
+    "title": "SAP LABS5757",
+    "author": "AKFitzgerald",
+    "price": 10.99,
+    "digitalCopy": false
+}

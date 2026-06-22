@@ -1,0 +1,7 @@
+ID,title,author,price,publicationDate,digitalCopy
+550e8400-e29b-41d4-a716-446655440000,The Great Gatsby,F. Scott Fitzgerald,499.99,1925-04-10,true
+550e8400-e29b-41d4-a716-446655440001,To Kill a Mockingbird,Harper Lee,599.50,1960-07-11,false
+550e8400-e29b-41d4-a716-446655440002,1984,George Orwell,450.00,1949-06-08,true
+550e8400-e29b-41d4-a716-446655440003,Clean Code,Robert C. Martin,799.99,2008-08-01,true
+550e8400-e29b-41d4-a716-446655440004,The Pragmatic Programmer,Andrew Hunt,899.00,1999-10-30,false
+550e8400-e29b-41d4-a716-446655440005,SAP ABAP Development Guide,Ajit Sahoo,1200.00,2025-01-15,true
